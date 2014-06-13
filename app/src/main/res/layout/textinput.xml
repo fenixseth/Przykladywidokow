@@ -1,0 +1,46 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <LinearLayout
+        android:id="@+id/LinearLayout01"
+        android:orientation="vertical"
+        android:layout_height="fill_parent"
+        android:layout_width="fill_parent">
+        <EditText android:text="EditText" android:layout_height="wrap_content" android:lines="4" android:id="@+id/EditText01" android:layout_width="fill_parent" android:hint="tu wpisuj"></EditText>
+        <EditText
+            android:id="@+id/EditText02"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="wartość domyślna"
+            android:editable="false"></EditText>
+        <AutoCompleteTextView
+            android:id="@+id/AutoCompleteTextView01"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:completionHint="Wybierz kolor lub wpisz własny"
+            android:completionThreshold="1" />
+        <MultiAutoCompleteTextView
+            android:id="@+id/MultiAutoCompleteTextView01"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:completionThreshold="1"
+            android:completionHint="Wybierz kolor lub wpisz własny" />
+        <EditText
+            android:id="@+id/input_filtered"
+            android:layout_height="wrap_content"
+            android:hint="tu coś wpisz"
+            android:layout_width="fill_parent" />
+        <Spinner
+            android:id="@+id/Spinner01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:entries="@array/colors"
+            android:prompt="@string/spin_prompt" />
+        <Button
+            android:id="@+id/submit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Zapisz" />
+    </LinearLayout>
+</ScrollView>

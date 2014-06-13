@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string
+        name="hello">Witaj, świecie - ViewsMenu</string>
+    <string
+        name="app_name">Przykłady kontrolek</string>
+    <string
+        name="spin_prompt">Wybierz kolor</string>
+    <string
+        name="autolink_test">To jest tekst. Mój blog można znaleźć na stronie
+        http://androidbook.blogspot.com\nNapisz do mnie na adres
+        test@gmail.com\nZadzwoń do mnie na numer (800) 555-1212\nZnajdź mnie w mojej ulubionej kawiarni 
+        1456 White Mountain Hwy, North Conway, NH 03860
+</string>
+    <array
+        name="colors">
+        <item>czerwony</item>
+        <item>niebieski</item>
+        <item>zielony</item>
+        <item>żółty</item>
+        <item>purpurowo-różowy</item>
+        <item>niebiesko-zielony</item>
+        <item>pomarańczowy</item>
+        <item>czarny</item>
+    </array>
+    <array
+        name="numbers">
+        <item>1</item>
+        <item>2</item>
+    </array>
+    <string
+        name="ell_test">Słowo supercallafragalisticexpealadocious.</string>
+    <string
+        name="dash">---</string>
+</resources>
